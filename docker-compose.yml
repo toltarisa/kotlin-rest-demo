@@ -1,0 +1,7 @@
+version: '3'
+services:
+  kotlin-rest-demo:
+    build: .
+    container_name: kotlin-rest-example
+    ports:
+      - 8082:8082
